@@ -5,6 +5,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
+    background-color: #000;
     }
 
     *,
@@ -24,10 +25,23 @@ body{
     /*header*/
     
     header{
-        padding: 35px;
+      
 
     }
     .hedder-inner{
         display: flex;
         justify-content: space-between;
+        border-bottom: 1px solid #858589;
+        padding: 35px;
     }
+
+        /*navigation*/
+        .nav{
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+
+        }
+        .nav-linc{
+            color: #FFF;
+        } 
