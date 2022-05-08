@@ -25,10 +25,15 @@ body{
     /*header*/
     
     header{
-      
+        width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1000;
 
     }
     .hedder-inner{
+        align-items: center;
         display: flex;
         justify-content: space-between;
         border-bottom: 1px solid #858589;
@@ -37,11 +42,31 @@ body{
 
         /*navigation*/
         .nav{
+            display: flex;
             font-size: 15px;
             font-weight: 700;
-            text-transform: uppercase;
-
+            text-transform: uppercase;     
         }
+        
         .nav-linc{
             color: #FFF;
+            text-decoration: none;
+            opacity: .75;
+            transition: .3s linear;
+            margin-left: 50px;
+          
         } 
+         .nav-linc:hover{
+             opacity: 1;
+        text-decoration: underline
+    }
+    .nav-linc:first-child{
+        margin-left: 0;
+        
+    }
+          /*intro*/
+          .intro{
+              height: 750px;
+              background: #31344e              
+              center no-repeat/ cover;             
+          }
