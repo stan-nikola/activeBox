@@ -6,6 +6,7 @@ body{
     font-size: 14px;
     color: #6c7279;
     background-color: #fff;
+   
     }
 
     *,
@@ -71,9 +72,9 @@ body{
         margin-left: 0;
         
     }
-          /*intro*/
-          .intro{
-              display: flex;
+     /*intro*/
+     .intro{
+      display: flex;
               flex-direction: column;
               justify-content: center;
               height: 750px;
@@ -106,4 +107,29 @@ body{
                         color: #FFF;
                         line-height: 1.5;
                         font-weight: 400;
+                        margin-bottom: 60px;
                     }
+     /*button*/
+     .btn{
+         display: inline-block;
+         vertical-align: top;
+         padding: 15px 40px;
+         border-radius: 3px;
+         border: 0;
+         cursor: pointer;
+         font-family: 'Raleway', sans-serif;
+         font-size: 13px;
+         font-weight: 600;
+         color: #FFF;
+         text-transform: uppercase;
+         text-decoration: none;
+         transition: background .1s linear;
+
+
+     }
+    .btn--red{
+        background-color: #e84545;
+    }
+     .btn--red:hover {
+        background-color: #af3434;
+     }
