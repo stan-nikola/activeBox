@@ -79,9 +79,9 @@ body{
               justify-content: center;
               height: 750px;
               padding-top: 100px;
-              background-color: #31344e;
+              background-color: #1d2785;
               background-size: cover;
-              background: url("/images/bgrimg.jpg") 
+              background: url(../images/bgrimg.jpg) 
               center no-repeat;               
           }
           .intro-inner{
