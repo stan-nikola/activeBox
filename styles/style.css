@@ -5,7 +5,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     color: #6c7279;
-    background-color: #000;
+    background-color: #fff;
     }
 
     *,
@@ -13,6 +13,12 @@ body{
     *:after
     {
         box-sizing: border-box;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+    }
+    p{
+        margin: 0 0 10px;
     }
 
      /*container*/
@@ -26,6 +32,7 @@ body{
     
     header{
         width: 100%;
+        height: 100px;
       position: absolute;
       top: 0;
       left: 0;
@@ -66,7 +73,25 @@ body{
     }
           /*intro*/
           .intro{
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
               height: 750px;
-              background: #31344e  
-              center no-repeat/ cover;             
+              padding-top: 100px;
+              background-color: #31344e;
+              background-size: cover;
+              background: url("/images/bgrimg.jpg") 
+              center no-repeat;
+                ;
+                         
           }
+                  .intro-title{
+                      margin: 0;
+
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 60px;
+                    color: #fff;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    text-align: center;
+                  }
