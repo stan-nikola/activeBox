@@ -25,8 +25,9 @@ body{
      /*container*/
      .container{
          width: 100%;
-         max-width: 1170px;
+         max-width: 1200px;
          margin: 0 auto;
+         padding: 0 15px;
      }
 
     /*header*/
@@ -65,8 +66,8 @@ body{
           
         } 
          .nav-linc:hover{
-             opacity: 1;
-        text-decoration: underline
+            opacity: 1;
+            text-decoration: underline
     }
     .nav-linc:first-child{
         margin-left: 0;
@@ -133,6 +134,8 @@ body{
      .btn--red:hover {
         background-color: #af3434;
      }
+
+
      /*Features
      =================*/
      .features{
@@ -226,6 +229,78 @@ body{
                     color: #FFF;
                                     
                 }
+
+    /* Team
+    ======================= */
+        .team{
+            margin: 100px 0 70px; 
+        }
+        .team-inner{
+            display: flex;
+            flex-wrap: wrap;
+            margin: -15px;
+        }
+        .team-item{
+            width: 25%;
+            padding: 0 15px;
+            margin-bottom: 30px;
+        }
+        .team-photo{
+            margin-bottom: 20px;
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .team-name{
+          
+            font-size: 22px;
+            color: #2d3033;
+            font-weight: 400;
+            margin-bottom: 10px;
+
+
+        }
+        .team-prof{
+            
+                font-size: 13px;
+                color: #e84545;
+                margin-bottom: 15px;
+                text-transform: uppercase;
+        }
+
+            .team-text{
+                color: #6c7279;
+                font-size: 14px;
+                line-height: 1.5;
+                margin-bottom: 20px;
+            }
+
+        /* Team
+         ======================= */
+         .social{
+             display: flex;
+
+        }
+
+        .social-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #9da7ac;
+            margin-right: 5px;
+            transition: .2s linear;
+
+        }
+    .social-item:hover {
+            background-color: #ececf8;
+
+    }
+            
+        
+        
+
 
 
 
