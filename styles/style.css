@@ -310,7 +310,7 @@ body{
 
 
     .social-item:hover {
-            background-color: #ececf8;
+            background-color: #a2a2c4;
 
     }
     
@@ -401,10 +401,8 @@ body{
 
         /* Footer
         ============== */
-        .footer{
-            
-            
-            background-color: #3a3e64;
+        .footer{           
+         background-color: #3a3e64;
 
         }
 
@@ -436,10 +434,7 @@ body{
 
         }
 
-        .social-item:hover {
-            background-color: #6767c9;
-        
-        }
+       
         .footer-text{
             font-style: 14px;
                 line-height: 1.5;
@@ -447,7 +442,7 @@ body{
                 color: rgba(255, 255, 255, .5);
         }
 
-        /* Footer
+        /* Copyright
         ============== */
 
         .copyright{
