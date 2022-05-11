@@ -275,7 +275,7 @@ body{
                 margin-bottom: 20px;
             }
 
-        /* Team
+        /* Social
          ======================= */
          .social{
              display: flex;
@@ -297,6 +297,74 @@ body{
             background-color: #ececf8;
 
     }
+
+        /* reviews
+     ======================= */
+     .review{
+         overflow: hidden;
+         background-color: #53354a;
+         
+     }
+
+     .review-item{
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+    .review-photo{
+        width: 50%;
+        height: 500px;
+        position: relative;
+
+    }
+
+         .review-img{
+             position: absolute;
+             top: 50%;
+             right: 0;
+             z-index: 1;
+             transform: translateY(-50%);
+         }
+
+
+    .review-content{
+        width: 50%;
+        color: #FFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 80px;
+
+        
+    }
+
+    .review-text{
+    font-family: 'Cardo', sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    
+    
+    
+    }
+
+    .review-author{
+
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+
+    }
+
+   
+
+
+
+
+
+
+
             
         
         
