@@ -298,13 +298,22 @@ body{
             border: 1px solid #9da7ac;
             margin-right: 5px;
             transition: .2s linear;
+            border-radius: 2px;
             
 
         }
+
+        .social-footer{
+            justify-content: center;
+
+        }
+
+
     .social-item:hover {
             background-color: #ececf8;
 
     }
+    
 
         /* reviews
      ======================= */
@@ -389,6 +398,75 @@ body{
             text-transform: uppercase;
     
         }
+
+        /* Footer
+        ============== */
+        .footer{
+            
+            
+            background-color: #3a3e64;
+
+        }
+
+        .footer-inner{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 70px 0;
+
+        }
+
+        .footer-block{
+            width: 33.333333333%;
+            text-align: center;
+            padding: 0 15px;
+        }
+
+        .footer-title{
+            font-weight: 700;
+            font-size: 14px;
+            color: #ffffff;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .footer-adress{
+            font-style: 14px;
+            line-height: 1.5;
+            font-style: normal;
+            color: rgba(255,255,255, .5);
+
+        }
+
+        .social-item:hover {
+            background-color: #6767c9;
+        
+        }
+        .footer-text{
+            font-style: 14px;
+                line-height: 1.5;
+                font-style: normal;
+                color: rgba(255, 255, 255, .5);
+        }
+
+        /* Footer
+        ============== */
+
+        .copyright{
+            background-color: #313454;
+            padding: 20px 0;
+        }
+
+        .coperight-text {
+            text-align: center;
+            font-style: 14px;
+            line-height: 1.5;
+           
+            color: #808080;
+            
+        }
+         .coperight-text span{
+             color: #FFF;
+         }
+
 
         
 
