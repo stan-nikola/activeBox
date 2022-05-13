@@ -195,6 +195,7 @@ header{
     {opacity: 1;    }
 
 .works-img{
+    min-width: 100%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -460,7 +461,7 @@ header{
     display: none;
     background: none;
     border: 0;
-    padding: 10px 2px;
+    padding: 8px 2px;
     cursor: pointer;
 }
 .burger-item{
@@ -499,6 +500,14 @@ header{
 /* Media
 =========== */
 
+@media (max-width: 1300px){
+
+    /* Works */
+    .works-item{
+        width: 50%;
+    }
+}
+
 @media (max-width: 991px) {
 
     /* Navigation */
@@ -517,9 +526,54 @@ header{
         font-size: 40px;
         }
 
-}
+/* Features */
 
-@media (max-width: 767px){
+    .features-item{
+        width: 50%;
+    }
+
+/* Team */
+    .team{
+        margin: 60px 0 30px;
+    }
+    .team-item{
+        width: 50%;
+        text-align: center;
+       
+    }
+    .team-photo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+        /* Team Social */
+    .social{
+        justify-content: center;
+    }
+
+    /* review */
+    .review-photo{
+        width: 100%;
+        margin: 15px 15px;
+        
+        overflow: hidden;
+
+    }
+    .review-content{
+        width: 100%;
+        padding-left: 15px;
+        padding-bottom: 40px;
+        
+    }
+    .review-autho{
+        text-align: center;
+    }
+    
+}
+    
+
+
+
+@media (max-width: 767px) {
 
     .intro{
         height: auto;
@@ -535,7 +589,79 @@ header{
             font-size: 16px;
             margin-bottom: 35px;
         }
-}
+        /* Features */
+        .features{
+            margin: 40px 0;
+        }
+        
+        .features-item {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        }
+
+        /* Works */
+        .works-item {
+         width: 100%;
+         height: 300px;
+        }
+
+    /* Team */
+        .team-item {
+        width: 100%;
+        }
+
+    /* Review */
+
+        .review-text{
+            font-size: 30px;
+        }
+        .review-author{
+            font-size: 10px;
+        }
+
+        /* Btn */
+
+         .btn--long{
+             min-width: 260px;
+            
+
+         }
+         /* Download */
+        .download{
+            margin: 50px 0;
+            }
+        .download-title{
+            font-size: 24px;
+        }
+
+        /* Footer */
+        .footer-inner{
+            padding: 30px 0;
+        }
+        .footer-block{
+            width: 100%;
+            margin-bottom: 30px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+                .footer-block:last-child{
+                    margin-bottom: 0;
+                }
+
+
+    } 
+    
+ @media (max-width: 414px) {
+
+    /* Reviews */
+     .review-img{
+        right: -120px;
+            }
+
+            
+
+        }
          
          
 
