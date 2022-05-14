@@ -526,7 +526,23 @@ header{
     /* Navigation */
     .nav{
         display: none;
+        position: absolute;
+        right: 0;
+        top: 100%;
+        flex-direction: column;
+        width: 100%;
+        text-align: right;
+        background-color: #31344e;
+        
     }
+
+    .nav-linc{
+        padding: 10px 15px;
+        }
+    .nav.show{
+        display: flex;
+    }
+
 
          /* Intro */
 
