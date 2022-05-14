@@ -1,5 +1,7 @@
 $(function () {
 
+    // FixedHeader 
+
     let header = $("#header");
     let intro = $("#intro");
     let introH;
