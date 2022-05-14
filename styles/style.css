@@ -335,9 +335,20 @@ header{
          
      }
 
+    .reviewSlider{
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .reviewSlider.slick-initialized {
+        height: auto;
+
+    }
+    
 .review-item{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
      }
 
 .review-photo{
@@ -382,6 +393,48 @@ header{
     font-weight: 700;
 
     }
+
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0 0 10px;
+        list-style: none;
+        width: 50%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        }
+
+        .slick-dots li {
+            margin: 0 5px;
+
+        }
+    
+    .slick-dots button{
+        background: #fff;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 0;
+        padding: 0;
+        font-size: 0;
+        color: transparent;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+        .slick-dots .slick-active button {
+            opacity: 1;
+        }
+
+        .slick-dots button focus{
+            outline: 0;
+        }
+
+
+
 
 /* download
     ======================= */

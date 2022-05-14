@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <meta name="viewport" content="width=device-width" initial-scale="1.0"> <!--адаптация под мобильное усройство-->
     
     <title>ActiveBox</title>
@@ -109,9 +110,9 @@
             </div>
 
         </div> <!--/.Features--> 
-    </div> 
-    
-    <!--/.Container-->
+    </div> <!--/.Container-->
+
+    <!--Works-->
     <div class="works" id="works">
         <div class="works-item">
             <img class="works-img" src="images/works/work1.png" alt="">
@@ -291,16 +292,48 @@
 
     <div class="review" id="review">
         <div class="contanier">
-           
-            <div class="review-item">
-                <div class="review-photo">
-                    <img class="review-img" src="images/reviews/review1.png" alt=""> </div>
 
-                    <div class="review-content"> 
-                     <div class="review-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div> 
-                     <div class="review-author">Susan Sims, Interaction Designer at XYZ</div>
+            <div class="reviewSlider" id="reviewSlider">
+
+                <div class="slick-item">           
+                    <div class="review-item">
+                        <div class="review-photo">
+                            <img class="review-img" src="images/reviews/review1.png"  alt=""> </div>
+
+                            <div class="review-content"> 
+                                <div class="review-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui. Aenean eu leo quam...”</div> 
+                                <div class="review-author">Susan Sims, Interaction Designer at XYZ</div>
+                            </div>
                     </div>
-             </div>
+                </div>
+
+                <div class="slick-item">
+                    <div class="review-item">
+                        <div class="review-photo">
+                            <img class="review-img" src="images/reviews/review2.png" alt="">
+                        </div>
+                    
+                        <div class="review-content">
+                            <div class="review-text">ООО, прикольно)</div>
+                            <div class="review-author">Юля казюля</div>
+                        </div>
+                 </div>
+                </div>
+
+                <div class="slick-item">
+                    <div class="review-item">
+                        <div class="review-photo">
+                            <img class="review-img" src="images/reviews/review3.png" alt="">
+                        </div>
+                
+                        <div class="review-content">
+                            <div class="review-text">Вот это ты реальный айпишник на компуктере</div>
+                            <div class="review-author">Настюха пипуха</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
 
         </div> <!--Container-->
     </div> <!-- Testimonials -->
@@ -379,7 +412,7 @@
 
 
     <!-- JavaScript -->
-
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="app.js"></script>
 
  

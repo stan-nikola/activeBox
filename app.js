@@ -43,7 +43,7 @@ $(function () {
         nav.removeClass("show");
 
         $("html, body").animate({
-            scrollTop:elementOffset -70
+            scrollTop:elementOffset -80
 
         }, 700);
         
@@ -56,6 +56,21 @@ $(function () {
         nav.toggleClass("show");
         
     });
+
+    /*Revoews https://kenwheeler.github.io/slick/ */
+    let slider = $("#reviewSlider");
+
+        slider.slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: false,
+        arrows: false,
+        dots:true
+        
+});
+
+
 
 
     
