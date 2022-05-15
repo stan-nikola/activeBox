@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    font-family: 'Cardo', serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 14px;
     color: #6c7279;
     background-color: #fff;
@@ -378,11 +378,12 @@ header{
     }
 
 .review-text{
-    font-family: 'Cardo', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 36px;
     font-style: italic;
     line-height: 1.2;
     margin-bottom: 25px; 
+   
        }
 
 .review-author{
